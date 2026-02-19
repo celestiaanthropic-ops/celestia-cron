@@ -9,9 +9,10 @@
     "start": "node horoscope-cron.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.2.0",
-    "@supabase/supabase-js": "^2.45.0",
-    "node-cron": "^3.0.3",
-    "dotenv": "^16.4.5"
-  }
+-  "@anthropic-ai/sdk": "^0.2.0",
++  "@anthropic-ai/sdk": "^0.24.0",
+   "@supabase/supabase-js": "^2.45.0",
+   "node-cron": "^3.0.3",
+   "dotenv": "^16.4.5"
+
 }
