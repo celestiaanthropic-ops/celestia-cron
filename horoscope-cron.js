@@ -100,7 +100,7 @@ Do NOT use the words "journey", "universe", "cosmos", or "celestial".
 Output only the horoscope text, nothing else.`;
 
   const response = await anthropic.complete({
-    model: "claude-3",
+    model: "claude-3-sonnet-20240229",
     prompt: prompt,
     max_tokens_to_sample: 400
   });
