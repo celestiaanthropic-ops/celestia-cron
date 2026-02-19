@@ -6,13 +6,9 @@
     "start": "node horoscope-cron.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^1.0.0",
     "@supabase/supabase-js": "^3.37.0",
+    "@anthropic-ai/sdk": "^1.0.0",
     "node-cron": "^3.0.2",
-    "dotenv": "^16.3.1",
-    "astronomia": "^2.0.0"
-  },
-  "engines": {
-    "node": ">=20"
+    "dotenv": "^16.0.0"
   }
 }
