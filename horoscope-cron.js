@@ -95,7 +95,7 @@ Rules:
 - Output only the horoscope text`;
 
   const message = await anthropic.messages.create({
-    model: "claude-3",
+    model: "claude-4",
     max_tokens: 400,
     messages: [{ role: "user", content: prompt }],
   });
